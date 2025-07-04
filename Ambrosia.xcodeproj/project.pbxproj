@@ -6,6 +6,21 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3C34B71A2E1859CF00554FAD /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C34B7152E1859CF00554FAD /* Recipe+CoreDataProperties.swift */; };
+		3C34B71B2E1859CF00554FAD /* Step+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C34B7162E1859CF00554FAD /* Step+CoreDataClass.swift */; };
+		3C34B71C2E1859CF00554FAD /* Step+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C34B7172E1859CF00554FAD /* Step+CoreDataProperties.swift */; };
+		3C34B71D2E1859CF00554FAD /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C34B7182E1859CF00554FAD /* User+CoreDataClass.swift */; };
+		3C34B71E2E1859CF00554FAD /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C34B7192E1859CF00554FAD /* User+CoreDataProperties.swift */; };
+		3C34B71F2E1859CF00554FAD /* Ingredient+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C34B7112E1859CF00554FAD /* Ingredient+CoreDataProperties.swift */; };
+		3C34B7202E1859CF00554FAD /* ItemList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C34B7122E1859CF00554FAD /* ItemList+CoreDataClass.swift */; };
+		3C34B7212E1859CF00554FAD /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C34B70E2E1859CF00554FAD /* Image+CoreDataClass.swift */; };
+		3C34B7222E1859CF00554FAD /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C34B70F2E1859CF00554FAD /* Image+CoreDataProperties.swift */; };
+		3C34B7232E1859CF00554FAD /* ItemList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C34B7132E1859CF00554FAD /* ItemList+CoreDataProperties.swift */; };
+		3C34B7242E1859CF00554FAD /* Recipe+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C34B7142E1859CF00554FAD /* Recipe+CoreDataClass.swift */; };
+		3C34B7252E1859CF00554FAD /* Ingredient+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C34B7102E1859CF00554FAD /* Ingredient+CoreDataClass.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		3CAA634F2E184ADB00289C71 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +39,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C34B70E2E1859CF00554FAD /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Image+CoreDataClass.swift"; path = "Models/Image+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3C34B70F2E1859CF00554FAD /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Image+CoreDataProperties.swift"; path = "Models/Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3C34B7102E1859CF00554FAD /* Ingredient+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Ingredient+CoreDataClass.swift"; path = "Models/Ingredient+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3C34B7112E1859CF00554FAD /* Ingredient+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Ingredient+CoreDataProperties.swift"; path = "Models/Ingredient+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3C34B7122E1859CF00554FAD /* ItemList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ItemList+CoreDataClass.swift"; path = "Models/ItemList+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3C34B7132E1859CF00554FAD /* ItemList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ItemList+CoreDataProperties.swift"; path = "Models/ItemList+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3C34B7142E1859CF00554FAD /* Recipe+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Recipe+CoreDataClass.swift"; path = "Models/Recipe+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3C34B7152E1859CF00554FAD /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Recipe+CoreDataProperties.swift"; path = "Models/Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3C34B7162E1859CF00554FAD /* Step+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Step+CoreDataClass.swift"; path = "Models/Step+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3C34B7172E1859CF00554FAD /* Step+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Step+CoreDataProperties.swift"; path = "Models/Step+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3C34B7182E1859CF00554FAD /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataClass.swift"; path = "Models/User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3C34B7192E1859CF00554FAD /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataProperties.swift"; path = "Models/User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3CAA63372E184ADA00289C71 /* Ambrosia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ambrosia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CAA634E2E184ADB00289C71 /* AmbrosiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmbrosiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CAA63582E184ADB00289C71 /* AmbrosiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmbrosiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +115,18 @@
 		3CAA632E2E184ADA00289C71 = {
 			isa = PBXGroup;
 			children = (
+				3C34B70E2E1859CF00554FAD /* Image+CoreDataClass.swift */,
+				3C34B70F2E1859CF00554FAD /* Image+CoreDataProperties.swift */,
+				3C34B7102E1859CF00554FAD /* Ingredient+CoreDataClass.swift */,
+				3C34B7112E1859CF00554FAD /* Ingredient+CoreDataProperties.swift */,
+				3C34B7122E1859CF00554FAD /* ItemList+CoreDataClass.swift */,
+				3C34B7132E1859CF00554FAD /* ItemList+CoreDataProperties.swift */,
+				3C34B7142E1859CF00554FAD /* Recipe+CoreDataClass.swift */,
+				3C34B7152E1859CF00554FAD /* Recipe+CoreDataProperties.swift */,
+				3C34B7162E1859CF00554FAD /* Step+CoreDataClass.swift */,
+				3C34B7172E1859CF00554FAD /* Step+CoreDataProperties.swift */,
+				3C34B7182E1859CF00554FAD /* User+CoreDataClass.swift */,
+				3C34B7192E1859CF00554FAD /* User+CoreDataProperties.swift */,
 				3CAA63392E184ADA00289C71 /* Ambrosia */,
 				3CAA63512E184ADB00289C71 /* AmbrosiaTests */,
 				3CAA635B2E184ADB00289C71 /* AmbrosiaUITests */,
@@ -249,6 +288,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C34B71A2E1859CF00554FAD /* Recipe+CoreDataProperties.swift in Sources */,
+				3C34B71B2E1859CF00554FAD /* Step+CoreDataClass.swift in Sources */,
+				3C34B71C2E1859CF00554FAD /* Step+CoreDataProperties.swift in Sources */,
+				3C34B71D2E1859CF00554FAD /* User+CoreDataClass.swift in Sources */,
+				3C34B71E2E1859CF00554FAD /* User+CoreDataProperties.swift in Sources */,
+				3C34B71F2E1859CF00554FAD /* Ingredient+CoreDataProperties.swift in Sources */,
+				3C34B7202E1859CF00554FAD /* ItemList+CoreDataClass.swift in Sources */,
+				3C34B7212E1859CF00554FAD /* Image+CoreDataClass.swift in Sources */,
+				3C34B7222E1859CF00554FAD /* Image+CoreDataProperties.swift in Sources */,
+				3C34B7232E1859CF00554FAD /* ItemList+CoreDataProperties.swift in Sources */,
+				3C34B7242E1859CF00554FAD /* Recipe+CoreDataClass.swift in Sources */,
+				3C34B7252E1859CF00554FAD /* Ingredient+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
