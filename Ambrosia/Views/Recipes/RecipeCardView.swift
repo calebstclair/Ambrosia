@@ -28,8 +28,7 @@ struct RecipeCardView: View {
                     .cornerRadius(12)
             }
 
-            Text(recipe.title ?? "Untitled")
-                .font(.headline)
+            Text(recipe.title ?? "Untitled").font(.headline)
 
             if let desc = recipe.dest, !desc.isEmpty {
                 Text(desc)
